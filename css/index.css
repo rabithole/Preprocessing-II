@@ -252,6 +252,7 @@ img {
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
+  margin: 0 1% 0 1%;
 }
 .home .content-pick .destination {
   width: 30%;
@@ -266,4 +267,14 @@ header {
 }
 header img {
   margin-bottom: 2%;
+}
+button {
+  background-color: #008080;
+  width: 95%;
+  padding: 5% 0 5% 0;
+  font-size: 1.8em;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  color: white;
 }
