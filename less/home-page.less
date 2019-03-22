@@ -7,23 +7,33 @@
     justify-content: space-between;
     width: 800px;
     margin: 0 auto;
+
+    @media @mobile {
+      flex-direction: column;
+      width: 90%;
+      margin: 3% auto 3% auto;
+    }
     
     .text-content {
       width: 48%;
       padding-right: 1%;
+
+      @media @mobile {
+        width: 95%
+      }
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
 
+      @media @mobile {
+        width: 95%;
+      }
+
       img {
         border-radius: 10px;
       }
-    }
-
-    @media @mobile {
-      flex-direction: column;
     }
   }
 
@@ -40,6 +50,10 @@
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+
+      @media @mobile {
+        order: 1;
+      }
     }
   }
 
