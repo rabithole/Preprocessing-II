@@ -185,6 +185,14 @@ img {
   font-size: 1.7em;
   color: #000;
 }
+@media (max-width: 500px) {
+  #nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
