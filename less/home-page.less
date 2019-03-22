@@ -27,6 +27,7 @@
 
   .inverse-content {
     padding-bottom: 30px;
+    padding-top: 2%;
     border-bottom: 2px dashed @navigation-border;
 
     .text-content {
@@ -41,12 +42,31 @@
   }
 
   .content-destination {
-    width: 75%;
-    margin: 0 auto 30px;
+    // width: 75%;
+    // margin: 0 auto 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-bottom: 3%;
+
+    h2 {
+      margin: 2% 0 0 10%;
+      justify-content: flex-start;
+    }
+
+    p {
+      width: 800px;
+      margin: 0 auto;
+    }
 
     img {
+      width: 80%;
+      margin: 0 auto;
       border-radius: 10px;
     }
+
+
   }
 
   .content-pick {
@@ -61,3 +81,15 @@
     }
   }
 }// home
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 2% auto;
+  width: 800px;
+  border-bottom: 2px dashed @navigation-border;
+
+  img {
+    margin-bottom: 2%;
+  }
+}
